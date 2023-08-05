@@ -15,6 +15,6 @@ pip install nltk
 # Details
 It first converts speech to text using google speechrecognition API. 
 The converted text is checked if there are any suspicious scam words present.
-According to the number of scam words and the distance of each scam words in each sentence, it calculates a value
-The vaule is averaged for all sentences in the call spoken which have at least 1 scam word.
+According to the number of scam words and the distance of each scam words in each sentence, it calculates a value using a mathematical function
+The value is averaged for all sentences in the call spoken which have at least 1 scam word.
 The probability value is returned as a number between 0 and 1.
